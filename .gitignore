@@ -1,0 +1,82 @@
+# -------------------------
+# SO / Editores / Misceláneo
+# -------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+.atom/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+**/.gradle/
+
+# VS Code (déjalo comentado si quieres versionar tu config)
+#.vscode/
+
+# -------------------------
+# Flutter / Dart / Pub
+# -------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+/coverage/
+
+# Build (todas las plataformas)
+build/
+.android/
+.ios/
+.linux/
+.macos/
+.web/
+.windows/
+
+# Flutter project metadata (no necesario versionarlo)
+.metadata
+
+# -------------------------
+# Android
+# -------------------------
+/android/.gradle/
+android/.idea/
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/local.properties
+# Firmas (no subas llaves al repo)
+android/key.properties
+*.keystore
+*.jks
+
+# -------------------------
+# iOS / macOS
+# -------------------------
+ios/Pods/
+macos/Pods/
+
+# -------------------------
+# Simbolicación / Ofuscación
+# -------------------------
+app.*.symbols
+app.*.map.json
+
+# -------------------------
+# Secretos / Generados por ENVied
+# -------------------------
+.env
+.env.*
+*.g.dart
+lib/env.g.dart
